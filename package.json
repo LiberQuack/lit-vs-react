@@ -1,0 +1,35 @@
+{
+  "name": "lit-vs-react",
+  "version": "1.0.0",
+  "description": "Show stats between them",
+  "main": "src/index.js",
+  "browserslist": "chrome 77",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuackMartins/lit-vs-react.git"
+  },
+  "keywords": [
+    "lit-html",
+    "lit-element",
+    "react"
+  ],
+  "author": "Quack Martins <rogue.thiago@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuackMartins/lit-vs-react/issues"
+  },
+  "homepage": "https://github.com/QuackMartins/lit-vs-react#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "sass": "^1.20.1",
+    "typescript": "^3.4.5"
+  }
+}

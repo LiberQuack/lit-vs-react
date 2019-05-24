@@ -1,0 +1,35 @@
+.effectitem {
+    display: block;
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: transform;
+}
+
+.effectitem.scale {
+    transform: scale(0.75);
+    &.isVisible {
+        transform: scale(1);
+    }
+}
+
+.effectitem.fade {
+    opacity: 0;
+    &.isVisible {
+        opacity: 1;
+    }
+}
+
+.effectitem.fill {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100vmax;
+    height: 100vmax;
+    margin-left: -50vmax;
+    margin-top: -50vmax;
+    background: #333;
+    border-radius: 100%;
+    transform: scale(0);
+    &.isVisible {
+        transform: scale(1.1)
+    }
+}
