@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/QuackMartins/lit-vs-react#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
